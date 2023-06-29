@@ -48,8 +48,7 @@
         android:gravity="center"
         android:padding="16dp"
         android:text="@string/welcom"
-
-        android:textColor="@color/black"
+        android:textColor="@color/design_default_color_primary_dark"
         android:textSize="18dp"
         tools:ignore="SpUsage" />
 
@@ -63,7 +62,7 @@
         android:gravity="center"
         android:padding="16dp"
         android:text="@string/phrase"
-        android:textColor="@color/black"
+        android:textColor="@color/design_default_color_primary_dark"
         android:textSize="22sp" />
 
     <View
@@ -81,7 +80,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
-        android:background="@color/design_default_color_primary_dark"
+        android:backgroundTint="@color/design_default_color_primary_dark"
         android:fontFamily="@font/cabin"
         android:text="@string/new_phrase" />
 
